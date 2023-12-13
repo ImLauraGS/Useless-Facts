@@ -1,13 +1,45 @@
 @import "./root.css";
 
+header, .random-fact-page {
+    display: none;
+}
+.favorites-page h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    height: 4rem;
+}
+.favorites-facts-group {
+    display: flex;
+    margin: 3rem 0;
+}
+
+.favorites-facts-group ul li{
+    width: 20rem;
+    font-size: 1.5rem;
+    background-color: var(--color_light_green);
+    padding: 1.5rem;
+    /* list-style-position: inside; */
+    display: flex;
+    border-radius: 1em;
+}
+.favorites-facts-group ul i{
+    background-color: var(--color_light_green);
+    color: var(--color_beige);
+}
+.favorites-facts-group ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+}
+
 @media screen and (max-width: 768px) {
 
 
-    .favorites-page {
+    /* .favorites-page {
         display: none;
-        /* CAMBIAR PARA HACER VISIBLE EL MENU DE FAVORITOS */
         
-    }
+    } */
     .favorites-page h1 {
         text-align: center;
         font-size: 2.5rem;
