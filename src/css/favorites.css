@@ -1,0 +1,42 @@
+@import "./root.css";
+
+@media screen and (max-width: 768px) {
+
+
+    .favorites-page {
+        display: none;
+        /* CAMBIAR PARA HACER VISIBLE EL MENU DE FAVORITOS */
+        
+    }
+    .favorites-page h1 {
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 600;
+        height: 4rem;
+    }
+    .favorites-facts-group {
+        width: 100%;
+        display: flex;
+        flex-direction: start;
+        margin-bottom: 3rem;
+    }
+
+    .favorites-facts-group ul li{
+        font-size: 1.5rem;
+        background-color: var(--color_light_green);
+        width: 100%;
+        padding: 2rem;
+        /* list-style-position: inside; */
+        display: flex;
+    }
+    .favorites-facts-group ul i{
+        background-color: var(--color_light_green);
+        color: var(--color_beige);
+    }
+    .favorites-facts-group ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}
