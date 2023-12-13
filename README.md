@@ -32,29 +32,37 @@ La empresa Useless Facts quiere desarrollar la parte front-end de una aplicació
 
 Para realizar el test, debers instalar las dependencias del proyecto (en la carpeta donde tienes todos los documentos del proyecto clonado) con el comando:
 
-```npm install
+```
+npm install
+
 ```
 O
 
-```npm i
+```
+npm i
+
 ```
 
 ## ✨EJECUCIÓN DE TEST✨
 Para ejecutar los test debes ejecutar el comando:
 
 
-```npm test
+```
+npm test
+
 ```
 O
 
-```npm t
+```
+npm t
+
 ```
 
 ## ✨COLABORADORAS✨
 
-[Laura Gil, Fullstack Developer](https://github.com/ImLauraGS)
-[Jessica, Fullstack Developer](https://github.com/Jasz-17)
-[Johanna Cuevas, Scrum Master](https://github.com/01joanna)
-[Zohra Bellamine, Product Owner]()
+[Laura Gil, Fullstack Developer](https://github.com/ImLauraGS) <br>
+[Jessica, Fullstack Developer](https://github.com/Jasz-17) <br>
+[Johanna Cuevas, Scrum Master](https://github.com/01joanna) <br>
+[Zohra Bellamine, Product Owner]() <br>
 
 
