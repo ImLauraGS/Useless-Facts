@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --color_dark_blue: #413C58;
+    --color_light_green: #BFD7B5;
+    --color_dark_green: #A3C4BC;
+    --color_beige: #F2E7C9;
+
+    --font_title: 700 40px 'Josefin Slab', sans-serif;
+    --font_header_menu: 600 24px 'Josefin Slab', sans-serif;
+    --font_fact_text: 600 24px 'Josefin Slab', sans-serif;
+    --font_button: 600 18px 'Josefin Sans', sans-serif;
+    --font_footer: 400 12px 'Inter', sans-serif; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
