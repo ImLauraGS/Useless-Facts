@@ -1,0 +1,5 @@
+@import "./root.css";
+
+.btn-fav:enabled ~ .random-fact-page{
+    display: none;
+}

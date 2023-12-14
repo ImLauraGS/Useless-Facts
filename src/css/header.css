@@ -89,17 +89,13 @@
     .header-mobile ul li{
         list-style-type: none;
         color: var( --color_dark_blue);
-        font-size: 18px;
-        font-weight: 500;
+        font: var(--font_fact_text);
+        padding: .1rem;
     }
 
     .header-mobile ul li a{
         text-decoration: none;
         color: var( --color_dark_blue);
         width: 100%;
-    }
-
-    .menu:hover ~ .menu-drop {
-        display: flex;
     }
 }

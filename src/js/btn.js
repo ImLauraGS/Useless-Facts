@@ -9,4 +9,14 @@ function showFav() {
     }
 }
 
+function showMenu(){
+    const optionMenus = document.getElementsByClassName("menu-drop");
+    for (const optionMenu of optionMenus) {
+        if (optionMenu.style.display === 'none' || optionMenu.style.display === '') {
+            optionMenu.style.display = 'flex';
+        }
+    }
+}   
+
+export {showMenu};
 export {showFav};
