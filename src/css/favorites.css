@@ -31,14 +31,17 @@
     border-radius: 1em;
     position: relative;
 }
-i {
+/* i {
     position: absolute;
     right: 1rem;
     bottom: 1rem;
-}
+} */
 .favorites-facts-group ul i{
     background-color: var(--color_light_green);
-    color: var(--color_beige);
+    color: var(--color_dark_blue);
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
 }
 .favorites-facts-group ul {
     display: flex;
@@ -85,7 +88,7 @@ i {
     }
     .favorites-facts-group ul i{
         background-color: var(--color_light_green);
-        color: var(--color_beige);
+        color: var(--color_dark_blue);
         /* margin-left: 2rem; */
     }
     .favorites-facts-group ul {
