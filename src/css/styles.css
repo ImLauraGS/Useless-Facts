@@ -1,2 +1,90 @@
 @import "./root.css";
+
+main{
+    background-color: var(--color_beige);
+}
+
+.random-fact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: var( --color_dark_blue);
+    font:var(--font_title);
+    padding: 2rem;
+    
+}
+
+#random-fact{
+    background-color: var(--color_light_green);
+    padding: 2rem;
+}
+
+.fact-home {
+ 
+    font: var(--font_fact_text);
+    color:var(--color_dark_blue);
+   
+}
+
+.group-btn{
+    display:flex;
+    max-width: 24rem;
+    padding: 2rem;
+}
+/*.random-fact-page a {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 7.5rem;
+    height: 3.75rem
+    text-decoration: none;
+    color:var(--color_dark_blue);
+    background-color: var(--color_dark_green);
+    font : var(--font_button);
+    justify-content: center;
+    align-content: center;
+    border-radius: 10%;
+}*/
+
+
+button{
+    width: 7.5rem;
+    height: 3.75rem;
+    background-color: var(--color_dark_green);
+    font : var(--font_button);
+    color: var(--color_dark_blue);
+    margin:0.375rem ;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10%;
+    border-color: var(--color_dark_green);
+
+}
+button:hover{
+    box-shadow: 3px 1px 3px 1px var(--color_dark_blue);
+}
+
+/*FAVORITES display none*/
+.favorites-page {
+    display: none;
+}
+
+/*HEADER DESKTOP display none*/
+@media (min-width: 981px) {
+    .header-desktop{display:none;}
+    #random-fact{
+        max-width: 24rem;
+        background-color: var(--color_light_green);
+        border-radius: 10%;
+        align-content: center;
+        justify-content: center;
+    }
+    .fact-home {
+        font: var(--font_fact_text);
+        color:var(--color_dark_blue)
+    }
+
+    }
 @import "./favorites.css";
