@@ -5,8 +5,7 @@ header, .random-fact-page {
 }
 .favorites-page h1 {
     text-align: center;
-    font-size: 2.5rem;
-    font-weight: 600;
+    font: var(--font_title);
     height: 4rem;
 }
 .favorites-facts-group {
@@ -18,6 +17,7 @@ header, .random-fact-page {
 .favorites-facts-group ul li{
     width: 20rem;
     font-size: 1.5rem;
+    font: var(--font_fact_text);
     background-color: var(--color_light_green);
     padding: 1.5rem;
     list-style-position: inside;

@@ -22,10 +22,9 @@ h1{
 }
 
 .fact-home {
- 
     font: var(--font_fact_text);
     color:var(--color_dark_blue);
-   
+    text-align: justify;
 }
 
 .group-btn{
@@ -73,8 +72,10 @@ button:hover{
 
 /*HEADER DESKTOP display none*/
 @media (min-width: 981px) {
-    .header-desktop{display:none;}
-    #random-fact{
+    .header-desktop {
+        display:none;
+    }
+    #random-fact {
         max-width: 24rem;
         background-color: var(--color_light_green);
         border-radius: 10%;
