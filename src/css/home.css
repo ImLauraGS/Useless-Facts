@@ -76,10 +76,12 @@ button:hover{
         display:none;
     }
     #random-fact {
-        max-width: 24rem;
+        display: flex;
+        width: 35rem;
+        min-height: 12rem;
         background-color: var(--color_light_green);
-        border-radius: 10%;
-        align-content: center;
+        border-radius: 10px;
+        align-items: center;
         justify-content: center;
     }
     .fact-home {
