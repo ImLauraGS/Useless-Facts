@@ -14,7 +14,6 @@
 }
 .favorites-facts-group {
     display: flex;
-    margin: 3rem 0;
     justify-content: center;
 }
 
