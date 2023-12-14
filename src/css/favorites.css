@@ -13,9 +13,11 @@
 }
 
 .favorites-facts-group ul li{
-    width: 20rem;
+    width: 35rem;
     font-size: 1.5rem;
     font: var(--font_fact_text);
+    color: var(--color_dark_blue);
+    
     background-color: var(--color_light_green);
     padding: 1.5rem;
     list-style-position: inside;
