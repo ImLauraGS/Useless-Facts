@@ -18,6 +18,9 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: var(--color_beige);
     font-family: 'Josefin Slab', sans-serif;
+}
+
+body{
+    background-color: var(--color_beige);
 }
