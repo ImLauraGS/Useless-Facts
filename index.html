@@ -12,13 +12,13 @@
     <header>
         <section class="header-desktop">
             <img src="./assets/logo.svg" alt="image logo page">
-            <div class="header-text-desktop">
+            <nav class="header-text-desktop">
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li>|</li>
-                    <li><a href="">FAVORITES</a></li>
+                    <li id="header-fav-btn" ><a>FAVORITES</a></li>
                 </ul>
-            </div>
+            </nav>
         </section>
         <section class="header-mobile">
             <img src="./assets/logo.svg" alt="image logo page">
@@ -32,7 +32,7 @@
         </section>
     </header>
     <main>
-        <section class="random-fact-page">
+        <section id="random-fact-page" class="random-fact-page">
             <h1>Random Fact</h1>
             <div id="random-fact">
                 <p class="fact-home">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum nihil, dicta dolore officia quisquam magni error id itaque nobis asperiores pariatur aspernatur praesentium eos dolor, minus esse. Aspernatur, eligendi aperiam.</p>
@@ -40,13 +40,13 @@
             <div class="group-btn">
                 <button id="get-fact-btn">New Random Fact</button>
                 <button><img src="./assets/star-btn.svg"></button>
-                <button onclick="window.location.href = 'https://trello.com/b/oygBWSJg/curious-facts-grupo-4-f5'">Favorites</button>
+                <button id="btn-fav" >Favorites</button>
                 <!--<a href="">New Random Fact</a>
                 <a href=""><img src="./assets/star-btn.svg"></a>
                 <a href="">Favorites</a>-->
             </div>
         </section>
-        <section class="favorites-page">
+        <section id="favorites-page" class="favorites-page">
             <h1>Favorites</h1>
             <div id="favorites-facts" class="favorites-facts-group">
                 <ul>
@@ -66,5 +66,6 @@
     <footer>
         <p class="footer-text">© 2023, Useless Facts, Inc. All rights reserved</p>
     </footer>
+    <script type="module" src="/src/js/events.js"></script>
 </body>
 </html>
