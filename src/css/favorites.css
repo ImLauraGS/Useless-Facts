@@ -1,5 +1,11 @@
 @import "./root.css";
 
+.favorites-page{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
 
 .favorites-page h1 {
     text-align: center;
@@ -42,7 +48,7 @@ i {
 
 
     .favorites-page {
-        display: flex;
+        display: none;
         flex-direction: column;
         justify-content: center;
         width: 100%;
