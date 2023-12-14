@@ -10,7 +10,7 @@
 
     --font_title: 700 2.5rem 'Josefin Slab', sans-serif;
     --font_header_menu: 600 24px 'Josefin Slab', sans-serif;
-    --font_fact_text: 600 24px 'Josefin Slab', sans-serif;
+    --font_fact_text: 500 24px 'Josefin Slab', sans-serif;
     --font_button: 600 18px 'Josefin Sans', sans-serif;
     --font_footer: 400 12px 'Inter', sans-serif; 
 }
@@ -18,6 +18,9 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: var(--color_beige);
     font-family: 'Josefin Slab', sans-serif;
+}
+
+body{
+    background-color: var(--color_beige);
 }

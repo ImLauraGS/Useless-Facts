@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/styles.css">
     <title>Useless Facts</title>
     <link rel="stylesheet" href="/src/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -23,9 +24,9 @@
             <img src="./assets/logo.svg" alt="image logo page">
             <section class="header-text-mobile">
                 <ul>
-                    <li>Menu</li>
-                    <li class="menu-drop"><a href="">Home</a></li>
-                    <li class="menu-drop"><a href=""></a>Favorites</li>
+                    <li class="menu-option menu">Menu</li>
+                    <li class="menu-option menu-drop"><a href="">Home</a></li>
+                    <li class="menu-option menu-drop"><a href="">Favorites</a></li>
                 </ul>
             </section>
         </section>
@@ -34,12 +35,15 @@
         <section class="random-fact-page">
             <h1>Random Fact</h1>
             <div id="random-fact">
-                <p></p>
+                <p class="fact-home">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum nihil, dicta dolore officia quisquam magni error id itaque nobis asperiores pariatur aspernatur praesentium eos dolor, minus esse. Aspernatur, eligendi aperiam.</p>
             </div>
             <div class="group-btn">
-                <a href="">New Random Fact</a>
+                <button id="get-fact-btn">New Random Fact</button>
+                <button><img src="./assets/star-btn.svg"></button>
+                <button onclick="window.location.href = 'https://trello.com/b/oygBWSJg/curious-facts-grupo-4-f5'">Favorites</button>
+                <!--<a href="">New Random Fact</a>
                 <a href=""><img src="./assets/star-btn.svg"></a>
-                <a href="">Favorites</a>
+                <a href="">Favorites</a>-->
             </div>
         </section>
         <section class="favorites-page">
