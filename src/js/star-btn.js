@@ -1,16 +1,16 @@
 
-const star = document.getElementsByTagName('');
+// const star = document.getElementsByClassName('fa-solid');
 
 function uncheckFavBtn() {
-    // const star = document.getElementById('starfav-btn')
-
-    if (star.style.color == 'var(--color_dark_blue)'){
-        star.style.color = 'var(--color_beige)'
-    } else {
-        star.style.color = 'var(--color_dark_blue)'
-    }
+    const starGroup = document.getElementsByClassName('fa-solid');
+        for (const star of starGroup) {
+            if (star.style.color == 'var(--color_dark_blue)'){
+            star.style.color = 'var(--color_beige)'
+            } else {
+            star.style.color = 'var(--color_dark_blue)'
+        }
+    }console.log(starGroup);
 }
 
-star.addEventListener('click', uncheckFavBtn);
 
 export { uncheckFavBtn }
