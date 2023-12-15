@@ -63,10 +63,12 @@
     }
     .favorites-page h1 {
         text-align: center;
-        font-size: 2.5rem;
-        font-weight: 600;
         height: 4rem;
         width: 100%;
+        padding: 0;
+        color: var(--color_dark_blue);
+        font: var(--font_title);
+        padding-top: 2rem;
     }
     .favorites-facts-group {
         width: 100%;

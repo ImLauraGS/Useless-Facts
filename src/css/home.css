@@ -21,6 +21,8 @@ h1{
     padding: 2rem;
     font: var(--font_fact_text);
     color:var(--color_dark_blue);
+    width: 100%;
+    text-align: center;
 }
 
 .fact-home {
