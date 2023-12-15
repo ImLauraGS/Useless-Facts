@@ -1,0 +1,17 @@
+{
+  "name": "uselessfacts-f5",
+  "version": "1.0.0",
+  "description": "Proyecto de desarrollo realizado por FemCoder del bootcamp de Factoria5.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "vitest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^1.0.4"
+  }
+}
