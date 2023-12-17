@@ -8,12 +8,11 @@ import { uncheckFavBtn } from "../src/js/star-btn.js";
 test("expect showFav to be a funtion", () => {
     expect(typeof showFav).toBe('function');
   });
- 
+
 test("expect getFact to be function", () => {
     expect(typeof getFact).toBe('function');
   });
 
-test("", () => {
-    expect(fact).toBeTypeOf('string')
-    ;
+  test("expect getFact to", () => {
+    expect(addToFavorites()).toContain("favoritesList");
   });
