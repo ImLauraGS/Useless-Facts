@@ -10,4 +10,4 @@ async function getFact() {
 }
 
 export { getFact, fact };
- 
+

@@ -5,30 +5,37 @@ import { uncheckFavBtn } from "./star-btn.js";
 
 const btnFav = document.getElementById('btn-fav');
 const menuFav =  document.getElementById('header-fav-btn');
-const addBtn=document.getElementById("add-btn")
-const getNewFact=document.getElementById("get-fact-btn")
+const addBtn = document.getElementById("add-btn")
+const getNewFact = document.getElementById("get-fact-btn")
 const btnMenu = document.getElementById("menu")
-const mobileFav =  document.getElementById('mobile-fav-btn')
+const mobileFav = document.getElementById('mobile-fav-btn')
+let starGroup = document.getElementsByClassName("starbtn");
+console.log(starGroup)
 
 
 btnFav.addEventListener('click', showFav);
 menuFav.addEventListener('click', showFav);
 getNewFact.addEventListener("click", getFact)
-addBtn.addEventListener("click", addToFavorites)
+addBtn.addEventListener("click", function() {
+    addToFavorites()
+    starGroup = document.getElementsByClassName("starbtn");
+    Array.from(starGroup).forEach(function(starIcon) {
+        starIcon.addEventListener('click', uncheckFavBtn.bind(this))
+    })
+})
 btnMenu.addEventListener('click', showMenu);
 mobileFav.addEventListener('click', showFav);
-// starGroup.addEventListener('click', uncheckFavBtn)
+starGroup.addEventListener('click', uncheckFavBtn)
 
-const starGroup = document.querySelectorAll(".starbtn");
 // starGroup.addEventListener('click', uncheckFavBtn);
 // starGroup.forEach( function(starIcon) {
 //     starIcon.addEventListener('click',uncheckFavBtn);
     // console.log(starIcon);
 // })
 
-document.addEventListener('DOMContentLoaded', function() {
-    const starGroup = document.getElementsByClassName("starbtn");
-    Array.from(starGroup).forEach(function(starIcon) {
-        starIcon.addEventListener('click', uncheckFavBtn);
-    });
-});
+// document.addEventListener('DOMContentLoaded', function() {
+//     const starGroup = document.getElementsByClassName("starbtn");
+//     Array.from(starGroup).forEach(function(starIcon) {
+//         starIcon.addEventListener('click', uncheckFavBtn);
+//     });
+// });
