@@ -13,6 +13,9 @@ test("expect getFact to be function", () => {
     expect(typeof getFact).toBe('function');
   });
 
-  test("expect getFact to", () => {
-    expect(addToFavorites()).toContain("favoritesList");
+test("", () => {
+    expect(fact).toBeTypeOf('string')
+    ;
   });
+
+  
