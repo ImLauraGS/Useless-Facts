@@ -10,7 +10,6 @@ const getNewFact = document.getElementById("get-fact-btn")
 const btnMenu = document.getElementById("menu")
 const mobileFav = document.getElementById('mobile-fav-btn')
 let starGroup = document.getElementsByClassName("starbtn");
-console.log(starGroup)
 
 
 btnFav.addEventListener('click', showFav);
@@ -19,23 +18,11 @@ getNewFact.addEventListener("click", getFact)
 addBtn.addEventListener("click", function() {
     addToFavorites()
     starGroup = document.getElementsByClassName("starbtn");
+
     Array.from(starGroup).forEach(function(starIcon) {
-        starIcon.addEventListener('click', uncheckFavBtn.bind(this))
+        starIcon.addEventListener('click', uncheckFavBtn.bind(starIcon))
     })
 })
 btnMenu.addEventListener('click', showMenu);
 mobileFav.addEventListener('click', showFav);
 starGroup.addEventListener('click', uncheckFavBtn)
-
-// starGroup.addEventListener('click', uncheckFavBtn);
-// starGroup.forEach( function(starIcon) {
-//     starIcon.addEventListener('click',uncheckFavBtn);
-    // console.log(starIcon);
-// })
-
-// document.addEventListener('DOMContentLoaded', function() {
-//     const starGroup = document.getElementsByClassName("starbtn");
-//     Array.from(starGroup).forEach(function(starIcon) {
-//         starIcon.addEventListener('click', uncheckFavBtn);
-//     });
-// });
