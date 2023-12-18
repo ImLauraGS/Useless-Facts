@@ -26,7 +26,7 @@ const starGroup = document.querySelectorAll(".starbtn");
     // console.log(starIcon);
 // })
 
-document.addEventListener('DOMContentLoaded', function() {g
+document.addEventListener('DOMContentLoaded', function() {
     const starGroup = document.getElementsByClassName("starbtn");
     Array.from(starGroup).forEach(function(starIcon) {
         starIcon.addEventListener('click', uncheckFavBtn);

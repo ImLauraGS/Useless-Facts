@@ -12,7 +12,7 @@ describe("home page test", () => {
     let document
 
     beforeAll(async () => {
-        dom = await JSDOM.fromFile("../index.html", {
+        dom = await JSDOM.fromFile("./index.html", {
             resources: "usable",
             runScripts: "dangerously"
         })

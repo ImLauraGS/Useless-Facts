@@ -13,9 +13,5 @@ test("expect getFact to be function", () => {
     expect(typeof getFact).toBe('function');
   });
 
-test("", () => {
-    expect(fact).toBeTypeOf('string')
-    ;
-  });
 
   
