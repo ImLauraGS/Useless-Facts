@@ -13,5 +13,9 @@
   "license": "ISC",
   "devDependencies": {
     "vitest": "^1.0.4"
+  },
+  "dependencies": {
+    "@testing-library/dom": "^9.3.3",
+    "jsdom": "^23.0.1"
   }
 }
