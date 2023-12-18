@@ -24,7 +24,7 @@ function uncheckFavBtn(element) {
         if (star.style.fill === 'rbg(66, 60, 88)'){
                 star.style.fill = 'rbg(242,231,201)'
                     } else {
-                        star.style.fill = '#413C58'
+                        star.style.fill = 'rbg(66, 60, 88)'
     }
 }
 // console.log(element);
