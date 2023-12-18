@@ -1,29 +1,12 @@
 
-// const star = document.getElementsByClassName('fa-solid');
-
-// function uncheckFavBtn() {
-//     const starGroup = document.getElementsByClassName('fa-solid');
-//         for (const star of stars) {
-//             if (star.style.color == 'var(--color_dark_blue)'){
-//             star.style.color = 'var(--color_beige)'
-//             } else {
-//             star.style.color = 'var(--color_dark_blue)'
-//         }
-//     }
-// }
-
-
-
-// export { uncheckFavBtn }
 
 function uncheckFavBtn() {
-    let stars = document.querySelectorAll('.starbtn');
-    console.log(stars);
+    let stars = document.getElementsByClassName('starbtn');
     for (const star of stars) {
-        if (star.style.color === '#413C58'){
-                star.style.color = '#F2E7C9'
+        if (this.style.fill === 'rgb(66, 60, 88)'){
+                this.style.fill = 'rgb(242,231,201)'
                     } else {
-                        star.style.color = '#413C58'
+                        this.style.fill = 'rgb(66, 60, 88)'
     }
 }
 }
