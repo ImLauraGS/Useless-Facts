@@ -23,6 +23,7 @@ addBtn.addEventListener("click", function() {
         starIcon.addEventListener('click', uncheckFavBtn.bind(starIcon))
     })
 })
+
 btnMenu.addEventListener('click', showMenu);
 mobileFav.addEventListener('click', showFav);
 starGroup.addEventListener('click', uncheckFavBtn)
