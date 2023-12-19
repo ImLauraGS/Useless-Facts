@@ -1,4 +1,6 @@
 
+
+
 function showFav() {
     const randomFact = document.getElementById('random-fact-page');
     const favoritePage = document.getElementById('favorites-page');
