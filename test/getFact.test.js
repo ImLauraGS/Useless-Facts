@@ -1,9 +1,7 @@
 import { describe, test, expect, it, beforeAll, vi } from "vitest";
 import{JSDOM} from "jsdom"
-import { showFav, showMenu} from "../src/js/btn.js";
-import { getFact } from "../src/js/getfact.js";
-import { addToFavorites } from "../src/js/list.js";
-import { uncheckFavBtn } from "../src/js/star-btn.js";
+import { getFact, fact } from "../src/js/getfact.js";
+
 
 
 describe("home page test", () => {
@@ -30,6 +28,12 @@ it("should have a function to receive new random facts", ()=>{
 it("should have a getFact function that return an object called fact", ()=>{
     expect(typeof getFact()).toBe('object');
 })
+
+// it('should update the DOM with the retrieved fact', async () => {
+//     const updatedFact = await getFact();
+//     expect(updatedFact).toContain();
+
+//   });
 
 })
 
