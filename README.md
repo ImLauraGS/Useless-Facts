@@ -34,7 +34,7 @@ La empresa Useless Facts quiere desarrollar la parte front-end de una aplicació
 - CSS3
 - GitFlow
 - Flex / Grids
--  jest / vitest librerías para testear
+- Node v20.9.0/  jest  / vitest 1.0.4 librerías para testear
 -  Responsive Web Design
 
 ## ✨INSTALACIÓN✨
